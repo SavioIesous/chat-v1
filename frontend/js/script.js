@@ -97,7 +97,7 @@ const sendMessage = (event) => {
         userColor: user.color,
         content: chatInput.value
     }
-    websocket.send(JSON.stringify(message))
+    websocket.onmessage.send(JSON.stringify(message))
 
     chatInput.value = ""
 }
