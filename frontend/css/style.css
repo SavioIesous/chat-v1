@@ -83,7 +83,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    word-wrap: break-word;
 }
 
 .chat__form {
